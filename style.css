@@ -69,11 +69,16 @@ body {
 
 .table-livros {
   width: 100%;
+  border-collapse: collapse;
 }
 
 .table-livros caption {
   caption-side: bottom;
   text-align: right;
+}
+
+.table-livros tr {
+  border-bottom: 1px solid black;
 }
 
 .table-livros td {
