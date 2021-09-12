@@ -3,3 +3,42 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* Header */
+/* #region */
+.header-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header-content {
+  height: 70px;
+  background-color: #343a40;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.header-title {
+  margin-left: 64px;
+  color: #fff;
+}
+
+.menu-list li {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.menu-link a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.menu-link a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+/* #endregion */
+
