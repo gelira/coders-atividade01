@@ -61,6 +61,30 @@ body {
   border-radius: 10px;
   width: 80%;
   background-color: rgb(248, 249, 250);
-  height: 2000px;
+}
+
+.main-content section {
+  padding: 20px 50px;
+}
+
+.table-livros {
+  width: 100%;
+}
+
+.table-livros caption {
+  caption-side: bottom;
+  text-align: right;
+}
+
+.table-livros td {
+  text-align: center;
+}
+
+.table-livros img {
+  width: 200px;
+}
+
+.livro-img {
+  width: 20%;
 }
 /* #endregion */
