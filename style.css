@@ -109,3 +109,17 @@ body {
   border-radius: 50%;
 }
 /* #endregion */
+
+/* Footer */
+/* #region */
+.footer-page {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/* #endregion */
